@@ -1,0 +1,27 @@
+<ul class="row list-unstyled m-0">
+  <li class="col col-xs-6 col-md-4 col-lg-3" *ngFor="let bird of birds;">
+    <div class="card bg-dark mb-3">
+      <div class="d-flex align-items-center">
+        <h2 class="h5 text-light order-2 ml-3">{{bird.name}}</h2>
+        <button type="button" class="btn order-1 rounded p-0" (click)="playBirdsong(bird.id)">
+          <img class="bird__img rounded" [src]="'../assets/images/'+bird.shortname+'.png'" [alt]="bird.name"/>
+        </button>
+        <audio id="audio_{{bird.id}}" [src]="'../assets/birdsongs/'+bird.shortname+'.mp3'"></audio>
+      </div>
+      <div class="card-footer">
+        <ngb-progressbar [type]="getSliderColor(bird.count)" [value]="getSliderValue(bird.count)"></ngb-progressbar>
+        <div class="d-flex align-items-center justify-content-center mt-2">
+          <button type="button" class="btn btn-outline-primary count__button mx-2" (click)="addBird(bird)">
+            <span class="sr-only">Add a {{bird.name}}</span>
+            <fa-icon [icon]="faPlus"></fa-icon>
+          </button>
+          <div class="rounded border border-secondary count__number mx-2">{{bird.count}}</div>
+          <button type="button" class="btn btn-outline-primary count__button mx-2" (click)="removeBird(bird)">
+            <span class="sr-only">Subtract a {{bird.name}}</span>
+            <fa-icon [icon]="faMinus"></fa-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </li>
+</ul>

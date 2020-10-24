@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "bird-count"
+    }
+  },
+  "defaultProject": "bird-count",
+  "cli": {
+    "analytics": "c524d8cc-2ad0-4781-ab2c-8866be44fd53"
+  }
 }

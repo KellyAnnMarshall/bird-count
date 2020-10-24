@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import 'assets/scss/variables';
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+.progress {
+  background: rgba(0,0,0,0.2);
+}

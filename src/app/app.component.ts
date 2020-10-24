@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faKiwiBird } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'bird-count';
+  title: string = 'bird-count';
+  faKiwiBird: {} = faKiwiBird;
+  isCollapsed: boolean = true;
+  currentYear: number = new Date().getFullYear();
+
+  constructor() {}
 }
