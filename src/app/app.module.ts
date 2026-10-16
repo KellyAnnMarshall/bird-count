@@ -1,12 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, provideZoneChangeDetection } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BirdListComponent } from './bird-list/bird-list.component';
-import { BirdService } from './bird.service';
 
 @NgModule({
   declarations: [
@@ -19,7 +18,7 @@ import { BirdService } from './bird.service';
     NgbModule,
     HttpClientModule,
   ],
-  providers: [BirdService],
+  providers: [provideZoneChangeDetection()],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

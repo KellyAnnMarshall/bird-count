@@ -1,13 +1,15 @@
-import { Injectable } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { Bird } from './models/bird.interface';
 
-@Injectable()
+@Injectable({ providedIn: 'root' })
 export class BirdService {
-  constructor(private http: HttpClient) { }
+  private readonly http = inject(HttpClient);
 
-  birdUrl = '../assets/json/birds.json';
+  private readonly birdUrl = '/assets/json/birds.json';
 
-  getBirds() {
-    return this.http.get(this.birdUrl);
+  getBirds(): Observable<Bird[]> {
+    return this.http.get<Bird[]>(this.birdUrl);
   }
 }

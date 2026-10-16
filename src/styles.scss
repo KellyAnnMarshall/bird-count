@@ -1,9 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
-
-@import 'assets/scss/variables';
-/* Importing Bootstrap SCSS file. */
-@import '~bootstrap/scss/bootstrap';
+@use 'assets/scss/variables' as variables;
+@use 'bootstrap/scss/bootstrap' with (
+  $enable-rounded: false,
+  $border-radius: 0,
+  $border-radius-sm: 0,
+  $border-radius-lg: 0,
+  $border-radius-xl: 0,
+  $border-radius-xxl: 0,
+  $border-radius-pill: 0,
+  $font-family-base: variables.$font-family-base,
+  $headings-font-family: variables.$headings-font-family,
+  $primary: variables.$primary,
+  $headings-color: variables.$headings-color
+);
 
 .progress {
   background: rgba(0,0,0,0.2);
+}
+
+.spinner-border {
+  border-radius: 0;
 }

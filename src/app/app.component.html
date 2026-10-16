@@ -2,16 +2,17 @@
   <div class="container">
     <div class="d-flex align-items-center">
       <h1>Garden Bird Count </h1>
-      <button type="button" class="btn btn-outline-secondary ml-5" (click)="isCollapsed = !isCollapsed"
-      [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample" placement="right" ngbTooltip="View Info" [openDelay]="500">
+      <button type="button" class="btn btn-outline-secondary ms-5" (click)="isCollapsed = !isCollapsed"
+      [attr.aria-expanded]="!isCollapsed" [attr.aria-label]="isCollapsed ? 'Show app information' : 'Hide app information'"
+      aria-controls="collapseExample" placement="right" ngbTooltip="View Info" [openDelay]="500">
         <fa-icon [icon]="faKiwiBird"></fa-icon>
       </button>
     </div>
     <p class="lead pt-3" id="collapseExample" [ngbCollapse]="isCollapsed">
       This was a quick app inspired by the annual <a href="https://www.rspb.org.uk/get-involved/activities/birdwatch/"
-        target="blank">RSPB Big Garden Birdwatch</a> event. It's to help survey the various birds
+        target="_blank" rel="noopener noreferrer">RSPB Big Garden Birdwatch</a> event. It's to help survey the various birds
       visiting the garden over the course of an hour and also a way to help identify garden bird songs.
-      Try clicking on the photos of the birds. The app is build using Angular
+      Try clicking on the photos of the birds. The app is built using Angular.
     </p>
   </div>
 
