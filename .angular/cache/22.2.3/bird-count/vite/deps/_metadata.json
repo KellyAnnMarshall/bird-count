@@ -1,0 +1,220 @@
+{
+  "hash": "00a20bc9",
+  "configHash": "a554b662",
+  "lockfileHash": "7dab6a3b",
+  "browserHash": "8c8965b7",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "58132c2b",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "d47ac4bf",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "b054c9b6",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "357db249",
+      "needsInterop": false
+    },
+    "@fortawesome/angular-fontawesome": {
+      "src": "../../../../../../node_modules/@fortawesome/angular-fontawesome/fesm2022/angular-fontawesome.mjs",
+      "file": "@fortawesome_angular-fontawesome.js",
+      "fileHash": "94514643",
+      "needsInterop": false
+    },
+    "@fortawesome/free-solid-svg-icons": {
+      "src": "../../../../../../node_modules/@fortawesome/free-solid-svg-icons/index.mjs",
+      "file": "@fortawesome_free-solid-svg-icons.js",
+      "fileHash": "7a44b198",
+      "needsInterop": false
+    },
+    "@ng-bootstrap/ng-bootstrap": {
+      "src": "../../../../../../node_modules/@ng-bootstrap/ng-bootstrap/fesm2022/ng-bootstrap.mjs",
+      "file": "@ng-bootstrap_ng-bootstrap.js",
+      "fileHash": "59771e2f",
+      "needsInterop": false
+    },
+    "@ng-bootstrap/ng-bootstrap/accordion": {
+      "src": "../../../../../../node_modules/@ng-bootstrap/ng-bootstrap/fesm2022/ng-bootstrap-ng-bootstrap-accordion.mjs",
+      "file": "@ng-bootstrap_ng-bootstrap_accordion.js",
+      "fileHash": "c0a580c5",
+      "needsInterop": false
+    },
+    "@ng-bootstrap/ng-bootstrap/alert": {
+      "src": "../../../../../../node_modules/@ng-bootstrap/ng-bootstrap/fesm2022/ng-bootstrap-ng-bootstrap-alert.mjs",
+      "file": "@ng-bootstrap_ng-bootstrap_alert.js",
+      "fileHash": "6486e15a",
+      "needsInterop": false
+    },
+    "@ng-bootstrap/ng-bootstrap/carousel": {
+      "src": "../../../../../../node_modules/@ng-bootstrap/ng-bootstrap/fesm2022/ng-bootstrap-ng-bootstrap-carousel.mjs",
+      "file": "@ng-bootstrap_ng-bootstrap_carousel.js",
+      "fileHash": "644954a0",
+      "needsInterop": false
+    },
+    "@ng-bootstrap/ng-bootstrap/collapse": {
+      "src": "../../../../../../node_modules/@ng-bootstrap/ng-bootstrap/fesm2022/ng-bootstrap-ng-bootstrap-collapse.mjs",
+      "file": "@ng-bootstrap_ng-bootstrap_collapse.js",
+      "fileHash": "3952a600",
+      "needsInterop": false
+    },
+    "@ng-bootstrap/ng-bootstrap/datepicker": {
+      "src": "../../../../../../node_modules/@ng-bootstrap/ng-bootstrap/fesm2022/ng-bootstrap-ng-bootstrap-datepicker.mjs",
+      "file": "@ng-bootstrap_ng-bootstrap_datepicker.js",
+      "fileHash": "bfc3bb9a",
+      "needsInterop": false
+    },
+    "@ng-bootstrap/ng-bootstrap/dropdown": {
+      "src": "../../../../../../node_modules/@ng-bootstrap/ng-bootstrap/fesm2022/ng-bootstrap-ng-bootstrap-dropdown.mjs",
+      "file": "@ng-bootstrap_ng-bootstrap_dropdown.js",
+      "fileHash": "19f661b9",
+      "needsInterop": false
+    },
+    "@ng-bootstrap/ng-bootstrap/nav": {
+      "src": "../../../../../../node_modules/@ng-bootstrap/ng-bootstrap/fesm2022/ng-bootstrap-ng-bootstrap-nav.mjs",
+      "file": "@ng-bootstrap_ng-bootstrap_nav.js",
+      "fileHash": "a3185b71",
+      "needsInterop": false
+    },
+    "@ng-bootstrap/ng-bootstrap/pagination": {
+      "src": "../../../../../../node_modules/@ng-bootstrap/ng-bootstrap/fesm2022/ng-bootstrap-ng-bootstrap-pagination.mjs",
+      "file": "@ng-bootstrap_ng-bootstrap_pagination.js",
+      "fileHash": "a3df4f64",
+      "needsInterop": false
+    },
+    "@ng-bootstrap/ng-bootstrap/popover": {
+      "src": "../../../../../../node_modules/@ng-bootstrap/ng-bootstrap/fesm2022/ng-bootstrap-ng-bootstrap-popover.mjs",
+      "file": "@ng-bootstrap_ng-bootstrap_popover.js",
+      "fileHash": "2c8766f2",
+      "needsInterop": false
+    },
+    "@ng-bootstrap/ng-bootstrap/progressbar": {
+      "src": "../../../../../../node_modules/@ng-bootstrap/ng-bootstrap/fesm2022/ng-bootstrap-ng-bootstrap-progressbar.mjs",
+      "file": "@ng-bootstrap_ng-bootstrap_progressbar.js",
+      "fileHash": "b0b1a20d",
+      "needsInterop": false
+    },
+    "@ng-bootstrap/ng-bootstrap/rating": {
+      "src": "../../../../../../node_modules/@ng-bootstrap/ng-bootstrap/fesm2022/ng-bootstrap-ng-bootstrap-rating.mjs",
+      "file": "@ng-bootstrap_ng-bootstrap_rating.js",
+      "fileHash": "ff32ac26",
+      "needsInterop": false
+    },
+    "@ng-bootstrap/ng-bootstrap/scrollspy": {
+      "src": "../../../../../../node_modules/@ng-bootstrap/ng-bootstrap/fesm2022/ng-bootstrap-ng-bootstrap-scrollspy.mjs",
+      "file": "@ng-bootstrap_ng-bootstrap_scrollspy.js",
+      "fileHash": "306874d4",
+      "needsInterop": false
+    },
+    "@ng-bootstrap/ng-bootstrap/timepicker": {
+      "src": "../../../../../../node_modules/@ng-bootstrap/ng-bootstrap/fesm2022/ng-bootstrap-ng-bootstrap-timepicker.mjs",
+      "file": "@ng-bootstrap_ng-bootstrap_timepicker.js",
+      "fileHash": "c1adcb3f",
+      "needsInterop": false
+    },
+    "@ng-bootstrap/ng-bootstrap/toast": {
+      "src": "../../../../../../node_modules/@ng-bootstrap/ng-bootstrap/fesm2022/ng-bootstrap-ng-bootstrap-toast.mjs",
+      "file": "@ng-bootstrap_ng-bootstrap_toast.js",
+      "fileHash": "95019815",
+      "needsInterop": false
+    },
+    "@ng-bootstrap/ng-bootstrap/tooltip": {
+      "src": "../../../../../../node_modules/@ng-bootstrap/ng-bootstrap/fesm2022/ng-bootstrap-ng-bootstrap-tooltip.mjs",
+      "file": "@ng-bootstrap_ng-bootstrap_tooltip.js",
+      "fileHash": "45103aa3",
+      "needsInterop": false
+    },
+    "@ng-bootstrap/ng-bootstrap/typeahead": {
+      "src": "../../../../../../node_modules/@ng-bootstrap/ng-bootstrap/fesm2022/ng-bootstrap-ng-bootstrap-typeahead.mjs",
+      "file": "@ng-bootstrap_ng-bootstrap_typeahead.js",
+      "fileHash": "5fa9f699",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "_ngb-ngbootstrap-utilities-Ah5J5HQF": {
+      "file": "_ngb-ngbootstrap-utilities-Ah5J5HQF.js",
+      "isDynamicEntry": false
+    },
+    "_xhr-chunk-Ok-rNgXU": {
+      "file": "_xhr-chunk-Ok-rNgXU.js",
+      "isDynamicEntry": false
+    },
+    "common-BeNFTo9T": {
+      "file": "common-BeNFTo9T.js",
+      "isDynamicEntry": false
+    },
+    "core-Ba85h7Kn": {
+      "file": "core-Ba85h7Kn.js",
+      "isDynamicEntry": false
+    },
+    "createObject-CDbjmouX": {
+      "file": "createObject-CDbjmouX.js",
+      "isDynamicEntry": false
+    },
+    "distinctUntilChanged-DvfRE8E3": {
+      "file": "distinctUntilChanged-DvfRE8E3.js",
+      "isDynamicEntry": false
+    },
+    "filter-CNISBydS": {
+      "file": "filter-CNISBydS.js",
+      "isDynamicEntry": false
+    },
+    "finalize-CA3nXePc": {
+      "file": "finalize-CA3nXePc.js",
+      "isDynamicEntry": false
+    },
+    "forms-BNdIOca8": {
+      "file": "forms-BNdIOca8.js",
+      "isDynamicEntry": false
+    },
+    "http-C4tywdQx": {
+      "file": "http-C4tywdQx.js",
+      "isDynamicEntry": false
+    },
+    "ng-bootstrap-ng-bootstrap-carousel-BGZIr9KE": {
+      "file": "ng-bootstrap-ng-bootstrap-carousel-BGZIr9KE.js",
+      "isDynamicEntry": false
+    },
+    "ng-bootstrap-ng-bootstrap-config-tzTTtjfG": {
+      "file": "ng-bootstrap-ng-bootstrap-config-tzTTtjfG.js",
+      "isDynamicEntry": false
+    },
+    "ng-bootstrap-ng-bootstrap-datepicker-WqZoORgy": {
+      "file": "ng-bootstrap-ng-bootstrap-datepicker-WqZoORgy.js",
+      "isDynamicEntry": false
+    },
+    "ng-bootstrap-ng-bootstrap-nav-D-LRJbYz": {
+      "file": "ng-bootstrap-ng-bootstrap-nav-D-LRJbYz.js",
+      "isDynamicEntry": false
+    },
+    "platform-browser-eb5b6-CV": {
+      "file": "platform-browser-eb5b6-CV.js",
+      "isDynamicEntry": false
+    },
+    "rxjs-interop-Blty5Z8n": {
+      "file": "rxjs-interop-Blty5Z8n.js",
+      "isDynamicEntry": false
+    },
+    "startWith-BiLc0pGr": {
+      "file": "startWith-BiLc0pGr.js",
+      "isDynamicEntry": false
+    },
+    "switchMap-C-fdJEPw": {
+      "file": "switchMap-C-fdJEPw.js",
+      "isDynamicEntry": false
+    }
+  }
+}

@@ -49,6 +49,7 @@
               "sourceMap": true
             },
             "production": {
+              "baseHref": "/bird-count/",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",

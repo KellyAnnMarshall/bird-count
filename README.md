@@ -22,7 +22,7 @@ The original Karma/Protractor testing dependencies were also outdated; the depen
 
 The Angular 11 CLI migration was applied first. The subsequent sequential CLI migration stopped at Angular 12 because of npm peer-dependency resolution failures. The remaining upgrade was completed directly using mutually compatible package versions, the current Angular application and dev-server builders, and a newly generated npm lockfile. Peer conflicts were not bypassed with force flags or overrides.
 
-The NgModule architecture, application workflow, `/assets/json/birds.json` data endpoint, static deployment output path, and responsive bird-card layout are retained. Components explicitly opt out of standalone mode, as required by the current Angular default. Bootstrap 4 utility and Sass usage were updated for Bootstrap 5. Protractor was replaced with Playwright, and Karma/Jasmine with Angular's Vitest unit-test builder; this removes the obsolete test stack and its reported high-severity advisories. Bird loading and audio failures now have explicit UI states, sighting counts remain safe at zero, and asynchronous updates schedule rendering correctly in the current Angular runtime.
+The NgModule architecture, application workflow, `assets/json/birds.json` data endpoint, static deployment output path, and responsive bird-card layout are retained. Components explicitly opt out of standalone mode, as required by the current Angular default. Bootstrap 4 utility and Sass usage were updated for Bootstrap 5. Protractor was replaced with Playwright, and Karma/Jasmine with Angular's Vitest unit-test builder; this removes the obsolete test stack and its reported high-severity advisories. Bird loading and audio failures now have explicit UI states, sighting counts remain safe at zero, and asynchronous updates schedule rendering correctly in the current Angular runtime.
 
 ## Regression coverage and verification
 
@@ -76,7 +76,7 @@ Create the optimized deployment build with:
 npm run build
 ```
 
-Publish the contents of `dist/bird-count` using the existing static-hosting setup. Keep the app's root-relative `/assets/...` paths available from the site's root; configure the host to serve `index.html` for the application entry point as appropriate for its static hosting model.
+Run `npm run build` to create the production build in `dist/bird-count`. For a static Jekyll site, copy the contents of that output directory into the site's `bird-count/` directory, so the app is served at `/bird-count/`. The production build sets that base path, and the app's data, images, and bird songs resolve relative to it; no app assets need to be exposed at the site's root. Ensure Jekyll publishes the copied files, including `index.html` and `assets/`.
 
 ## Outstanding verification limits
 

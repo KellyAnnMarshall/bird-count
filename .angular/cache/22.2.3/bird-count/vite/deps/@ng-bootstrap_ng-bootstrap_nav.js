@@ -1,0 +1,2 @@
+import { a as NgbNavItemRole, c as NgbNavLinkButton, d as NgbNavPane, i as NgbNavItem, l as NgbNavModule, n as NgbNavConfig, o as NgbNavLink, r as NgbNavContent, s as NgbNavLinkBase, t as NgbNav, u as NgbNavOutlet } from "./ng-bootstrap-ng-bootstrap-nav-D-LRJbYz.js";
+export { NgbNav, NgbNavConfig, NgbNavContent, NgbNavItem, NgbNavItemRole, NgbNavLink, NgbNavLinkBase, NgbNavLinkButton, NgbNavModule, NgbNavOutlet, NgbNavPane };

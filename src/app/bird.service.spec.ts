@@ -27,7 +27,7 @@ describe('BirdService', () => {
 
     service.getBirds().subscribe((birds) => actualBirds = birds);
 
-    const request = httpTestingController.expectOne('/assets/json/birds.json');
+    const request = httpTestingController.expectOne('assets/json/birds.json');
     expect(request.request.method).toBe('GET');
     request.flush(expectedBirds);
 
@@ -39,7 +39,7 @@ describe('BirdService', () => {
 
     service.getBirds().subscribe({ error: (error: HttpErrorResponse) => actualError = error });
 
-    httpTestingController.expectOne('/assets/json/birds.json').flush('Unavailable', {
+    httpTestingController.expectOne('assets/json/birds.json').flush('Unavailable', {
       status: 503,
       statusText: 'Service Unavailable'
     });

@@ -7,7 +7,7 @@ import { Bird } from './models/bird.interface';
 export class BirdService {
   private readonly http = inject(HttpClient);
 
-  private readonly birdUrl = '/assets/json/birds.json';
+  private readonly birdUrl = 'assets/json/birds.json';
 
   getBirds(): Observable<Bird[]> {
     return this.http.get<Bird[]>(this.birdUrl);
